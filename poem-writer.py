@@ -10,7 +10,7 @@ def help_message():
 def banner_say(message):
     print("""
     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-     %s
+    %s
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     """ % message)
 
