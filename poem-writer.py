@@ -44,8 +44,8 @@ def read_cmd(user_input):
         "say": lambda words: " ".join(words),
         "exit": lambda _: banner_say("Bye cruel world!"),
     }
-    fn = commands.get(cmd, lambda _: error(user_input))
-    fn(args)
+    command = commands.get(cmd, lambda _: error(user_input))
+    command(args)
 
 
 # Fabricate some fake user inputs for testing
